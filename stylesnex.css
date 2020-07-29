@@ -1,0 +1,10 @@
+h2.name{
+    border: 2px black;
+    background-color: #f8f9f8;
+    text-align: center;
+}
+p.para{
+    text-align: center;
+    border: none;
+    background-color: lightcyan;
+}

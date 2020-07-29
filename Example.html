@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        
+        html,
+        body {
+            position: relative;
+        }
+        
+        div.wrap {
+            display: flex;
+            width: 70%;
+            margin: auto;
+        }
+        
+        div.right,
+        div.left {
+            width: 50%;
+        }
+        
+        h4 {
+            font-size: 2em;
+        }
+        
+        h5 {
+            font-size: 1.5em;
+        }
+        
+        a {
+            text-decoration: none;
+        }
+        
+        h5 a:hover {
+            color: red;
+        }
+        
+        div.img {
+            border: 1px solid #000000;
+            width: 100%;
+            border-right: none;
+            margin-top: 20px;
+        }
+        
+        div.right .title {
+            background-color: #cccccc;
+            width: 100%;
+            margin: 15px;
+        }
+        
+        img {
+            width: 100%;
+        }
+        /* h5 a:visited{
+            color:green; 
+        } */
+        
+        .a {
+            width: 100%;
+            /* padding: 15px; */
+            background-color: #ccc;
+        }
+        
+        .a em {
+            padding: 15px;
+            display: block;
+            line-height: 1.5em;
+            font-style: normal;
+            font-weight: 600;
+            text-align: center;
+        }
+        
+        div.left_1 {
+            width: 100%;
+            margin: 0 10px;
+        }
+        
+        div.left_2 {
+            width: 100%;
+            margin: 0 10px;
+        }
+        
+        div.left_1 ul li {
+            list-style: none;
+            border-bottom: 1px dotted #ccc;
+        }
+        
+        div.left_1 ul li a p {
+            /* text-align: center; */
+            padding: 10px;
+        }
+        
+        .li_flex {
+            display: flex;
+            background-image: url(https://media.doisongphapluat.com/347/2017/12/4/quatang_pattern.jpg);
+            background-position: bottom;
+            background-repeat: repeat-x;
+            padding: 10px 0 13px;
+        }
+        
+        .tieude {
+            padding: 10px 0;
+            border-bottom: 2px solid #000;
+        }
+        
+        .left {
+            display: flex;
+        }
+    </style>
+    <!-- THAO TÁC Ở THẺ NÀO THÌ CSS LUÔN TẠI THẺ ĐÓ -->
+</head>
+
+<body>
+    <div class="wrap">
+        <div class="right">
+            <h4>"Thánh nữ" Rikka Ono 18 tuổi, chỉ cao 1m48 vẫn khiến làng giải trí Nhật Bản "chao đảo" khi vừa gia nhập</h4>
+            <h5>Có <a href="https://www.doisongphapluat.com/tin-tuc/"> tin</a> đồn rằng Rikka Ono từng là thực tập sinh của một nhóm nhạc nữ nổi tiếng nhưng không được ra mắt nên đã gia nhập ngành công nghiệp phim người lớn Nhật Bản.</h5>
+            <div class="img">
+                <img src="https://media.doisongphapluat.com/493/2020/7/1/thanh-nu-JAV-18-tuoi-chi-cao-1m48-nhung-da-lam-chao-dao-lang-giai-tri-Nhat-Ban-khi-vua-gia-nhap-dspl-2.jpeg" alt="Photo">
+            </div>
+            <!-- <h5 class="title"><i>Rikka Ono sinh năm 2002, mới chỉ gia nhập ngành giải trí vào tháng 4/2020 với tư cách diễn viên phim người lớn.</i></h5> -->
+            <div class="a">
+                <em>Rikka Ono sinh năm 2002, mới chỉ gia nhập ngành giải trí vào tháng 4/2020 với tư cách diễn viên phim người lớn.</em>
+            </div>
+            <div class="img">
+                <img src="https://media.doisongphapluat.com/493/2020/7/1/thanh-nu-JAV-18-tuoi-chi-cao-1m48-nhung-da-lam-chao-dao-lang-giai-tri-Nhat-Ban-khi-vua-gia-nhap-dspl-2.jpeg" alt="Photo">
+            </div>
+            <!-- <h5 class="title"><i>Rikka Ono sinh năm 2002, mới chỉ gia nhập ngành giải trí vào tháng 4/2020 với tư cách diễn viên phim người lớn.</i></h5> -->
+            <div class="a">
+                <em>Rikka Ono sinh năm 2002, mới chỉ gia nhập ngành giải trí vào tháng 4/2020 với tư cách diễn viên phim người lớn.</em>
+            </div>
+            <div class="img">
+                <img src="https://media.doisongphapluat.com/493/2020/7/1/thanh-nu-JAV-18-tuoi-chi-cao-1m48-nhung-da-lam-chao-dao-lang-giai-tri-Nhat-Ban-khi-vua-gia-nhap-dspl-2.jpeg" alt="Photo">
+            </div>
+            <!-- <h5 class="title"><i>Rikka Ono sinh năm 2002, mới chỉ gia nhập ngành giải trí vào tháng 4/2020 với tư cách diễn viên phim người lớn.</i></h5> -->
+            <div class="a">
+                <em>Rikka Ono sinh năm 2002, mới chỉ gia nhập ngành giải trí vào tháng 4/2020 với tư cách diễn viên phim người lớn.</em>
+            </div>
+            <div class="img">
+                <img src="https://media.doisongphapluat.com/493/2020/7/1/thanh-nu-JAV-18-tuoi-chi-cao-1m48-nhung-da-lam-chao-dao-lang-giai-tri-Nhat-Ban-khi-vua-gia-nhap-dspl-2.jpeg" alt="Photo">
+            </div>
+            <!-- <h5 class="title"><i>Rikka Ono sinh năm 2002, mới chỉ gia nhập ngành giải trí vào tháng 4/2020 với tư cách diễn viên phim người lớn.</i></h5> -->
+            <div class="a">
+                <em>Rikka Ono sinh năm 2002, mới chỉ gia nhập ngành giải trí vào tháng 4/2020 với tư cách diễn viên phim người lớn.</em>
+            </div>
+        </div>
+        <div class="left">
+            <div class="left_1">
+                <p class="tieude">Tin nor bat</p>
+                <ul>
+                    <li>
+                        <a href="">
+                            <img src="https://media.doisongphapluat.com/493/2020/7/1/thanh-nu-JAV-18-tuoi-chi-cao-1m48-nhung-da-lam-chao-dao-lang-giai-tri-Nhat-Ban-khi-vua-gia-nhap-dspl-2.jpeg" alt="">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, corrupti?</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, corrupti?</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, corrupti?</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, corrupti?</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, corrupti?</p>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="left_2">
+                <p class="tieude">Tin nor bat</p>
+                <ul>
+
+                    <li class="li_flex">
+                        <a href="">
+                            <h6>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magni, explicabo?</h6>
+
+                        </a>
+                        <a href="">
+                            <img src="https://media.doisongphapluat.com/493/2020/7/1/thanh-nu-JAV-18-tuoi-chi-cao-1m48-nhung-da-lam-chao-dao-lang-giai-tri-Nhat-Ban-khi-vua-gia-nhap-dspl-2.jpeg" alt="">
+                        </a>
+
+
+
+                    </li>
+                    <li class="li_flex">
+                        <a href="">
+                            <h6>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magni, explicabo?</h6>
+
+                        </a>
+                        <a href="">
+                            <img src="https://media.doisongphapluat.com/493/2020/7/1/thanh-nu-JAV-18-tuoi-chi-cao-1m48-nhung-da-lam-chao-dao-lang-giai-tri-Nhat-Ban-khi-vua-gia-nhap-dspl-2.jpeg" alt="">
+                        </a>
+
+
+
+                    </li>
+                    <li class="li_flex">
+                        <a href="">
+                            <h6>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magni, explicabo?</h6>
+
+                        </a>
+                        <a href="">
+                            <img src="https://media.doisongphapluat.com/493/2020/7/1/thanh-nu-JAV-18-tuoi-chi-cao-1m48-nhung-da-lam-chao-dao-lang-giai-tri-Nhat-Ban-khi-vua-gia-nhap-dspl-2.jpeg" alt="">
+                        </a>
+
+
+
+                    </li>
+                    <li class="li_flex">
+                        <a href="">
+                            <h6>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magni, explicabo?</h6>
+
+                        </a>
+                        <a href="">
+                            <img src="https://media.doisongphapluat.com/493/2020/7/1/thanh-nu-JAV-18-tuoi-chi-cao-1m48-nhung-da-lam-chao-dao-lang-giai-tri-Nhat-Ban-khi-vua-gia-nhap-dspl-2.jpeg" alt="">
+                        </a>
+
+
+
+                    </li>
+                    <li class="li_flex">
+                        <a href="">
+                            <h6>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magni, explicabo?</h6>
+
+                        </a>
+                        <a href="">
+                            <img src="https://media.doisongphapluat.com/493/2020/7/1/thanh-nu-JAV-18-tuoi-chi-cao-1m48-nhung-da-lam-chao-dao-lang-giai-tri-Nhat-Ban-khi-vua-gia-nhap-dspl-2.jpeg" alt="">
+                        </a>
+
+
+
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
